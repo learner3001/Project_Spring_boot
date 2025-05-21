@@ -8,7 +8,7 @@ import com.cts.entity.Email;
 
 import io.swagger.v3.oas.annotations.parameters.RequestBody;
 
-@FeignClient(name="email-client" , url="http://localhost:8087")
+@FeignClient(name="Notification")
 public interface NotificationClient  {
 	@PostMapping("/email/emailService")
     ResponseEntity<String> email(@RequestBody Email email);
