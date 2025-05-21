@@ -1,0 +1,95 @@
+2025-05-21 14:09:23 - Starting LoggingServiceApplication using Java 21.0.4 with PID 50732 (C:\Users\2393064\OneDrive - Cognizant\Desktop\project\logging-service\target\classes started by 2393064 in C:\Users\2393064\OneDrive - Cognizant\Desktop\project\logging-service)
+2025-05-21 14:09:23 - No active profile set, falling back to 1 default profile: "default"
+2025-05-21 14:09:24 - Tomcat initialized with port 9096 (http)
+2025-05-21 14:09:24 - Starting service [Tomcat]
+2025-05-21 14:09:24 - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-21 14:09:24 - Initializing Spring embedded WebApplicationContext
+2025-05-21 14:09:24 - Root WebApplicationContext: initialization completed in 1096 ms
+2025-05-21 14:09:24 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-21 14:09:24 - Tomcat started on port 9096 (http) with context path '/'
+2025-05-21 14:09:24 - Started LoggingServiceApplication in 2.437 seconds (process running for 3.229)
+2025-05-21 14:11:26 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-21 14:11:26 - Initializing Servlet 'dispatcherServlet'
+2025-05-21 14:11:26 - Completed initialization in 0 ms
+2025-05-21 14:11:26 - User [userId=52, name=kishore, password=$2a$12$P5dPidmpYJdJXyaqgwG9eOcL2QFGJPvxA6qqXa4NH28rNeSGTqdqu, role=STUDENT, email=kishoretony112@gmail.com]
+2025-05-21 14:13:00 - User [userId=52, name=kishore, password=$2a$12$P5dPidmpYJdJXyaqgwG9eOcL2QFGJPvxA6qqXa4NH28rNeSGTqdqu, role=STUDENT, email=kishoretony112@gmail.com]
+2025-05-21 14:13:05 - Enrollment service added enrollment
+2025-05-21 14:14:33 - Application shutdown requested.
+2025-05-21 14:14:33 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-21 14:14:33 - Graceful shutdown complete
+2025-05-21 14:21:00 - Starting LoggingServiceApplication using Java 21.0.4 with PID 61636 (C:\Users\2393064\OneDrive - Cognizant\Desktop\project\logging-service\target\classes started by 2393064 in C:\Users\2393064\OneDrive - Cognizant\Desktop\project\logging-service)
+2025-05-21 14:21:00 - No active profile set, falling back to 1 default profile: "default"
+2025-05-21 14:21:00 - Tomcat initialized with port 9096 (http)
+2025-05-21 14:21:00 - Starting service [Tomcat]
+2025-05-21 14:21:00 - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-21 14:21:00 - Initializing Spring embedded WebApplicationContext
+2025-05-21 14:21:00 - Root WebApplicationContext: initialization completed in 743 ms
+2025-05-21 14:21:01 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-21 14:21:01 - Tomcat started on port 9096 (http) with context path '/'
+2025-05-21 14:21:01 - Started LoggingServiceApplication in 1.684 seconds (process running for 2.354)
+2025-05-21 14:21:31 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-21 14:21:31 - Initializing Servlet 'dispatcherServlet'
+2025-05-21 14:21:31 - Completed initialization in 0 ms
+2025-05-21 14:21:31 - User [userId=52, name=kishore, password=$2a$12$P5dPidmpYJdJXyaqgwG9eOcL2QFGJPvxA6qqXa4NH28rNeSGTqdqu, role=STUDENT, email=kishoretony112@gmail.com]
+2025-05-21 14:21:36 - Enrollment service added enrollment
+2025-05-21 14:22:44 - Application shutdown requested.
+2025-05-21 14:22:44 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-21 14:22:44 - Graceful shutdown complete
+2025-05-21 14:45:42 - Starting LoggingServiceApplication using Java 21.0.4 with PID 33148 (C:\Users\2393064\OneDrive - Cognizant\Desktop\project\logging-service\target\classes started by 2393064 in C:\Users\2393064\OneDrive - Cognizant\Desktop\project\logging-service)
+2025-05-21 14:45:42 - No active profile set, falling back to 1 default profile: "default"
+2025-05-21 14:45:43 - Tomcat initialized with port 9096 (http)
+2025-05-21 14:45:43 - Starting service [Tomcat]
+2025-05-21 14:45:43 - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-21 14:45:43 - Initializing Spring embedded WebApplicationContext
+2025-05-21 14:45:43 - Root WebApplicationContext: initialization completed in 971 ms
+2025-05-21 14:45:43 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-21 14:45:44 - Tomcat started on port 9096 (http) with context path '/'
+2025-05-21 14:45:44 - Started LoggingServiceApplication in 2.127 seconds (process running for 3.325)
+2025-05-21 14:47:24 - Application shutdown requested.
+2025-05-21 14:47:24 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-21 14:47:24 - Graceful shutdown complete
+2025-05-21 14:48:27 - Starting LoggingServiceApplication using Java 21.0.4 with PID 22952 (C:\Users\2393064\OneDrive - Cognizant\Desktop\project\logging-service\target\classes started by 2393064 in C:\Users\2393064\OneDrive - Cognizant\Desktop\project\logging-service)
+2025-05-21 14:48:27 - No active profile set, falling back to 1 default profile: "default"
+2025-05-21 14:48:27 - Tomcat initialized with port 9096 (http)
+2025-05-21 14:48:27 - Starting service [Tomcat]
+2025-05-21 14:48:27 - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-21 14:48:27 - Initializing Spring embedded WebApplicationContext
+2025-05-21 14:48:27 - Root WebApplicationContext: initialization completed in 821 ms
+2025-05-21 14:48:28 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-21 14:48:28 - Tomcat started on port 9096 (http) with context path '/'
+2025-05-21 14:48:28 - Started LoggingServiceApplication in 1.688 seconds (process running for 2.249)
+2025-05-21 14:50:36 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-21 14:50:36 - Initializing Servlet 'dispatcherServlet'
+2025-05-21 14:50:36 - Completed initialization in 0 ms
+2025-05-21 14:50:36 - User [userId=52, name=kishore, password=$2a$12$P5dPidmpYJdJXyaqgwG9eOcL2QFGJPvxA6qqXa4NH28rNeSGTqdqu, role=STUDENT, email=kishoretony112@gmail.com]
+2025-05-21 14:52:13 - User [userId=52, name=kishore, password=$2a$12$P5dPidmpYJdJXyaqgwG9eOcL2QFGJPvxA6qqXa4NH28rNeSGTqdqu, role=STUDENT, email=kishoretony112@gmail.com]
+2025-05-21 15:00:22 - User [userId=52, name=kishore, password=$2a$12$P5dPidmpYJdJXyaqgwG9eOcL2QFGJPvxA6qqXa4NH28rNeSGTqdqu, role=STUDENT, email=kishoretony112@gmail.com]
+2025-05-21 15:05:29 - User [userId=52, name=kishore, password=$2a$12$P5dPidmpYJdJXyaqgwG9eOcL2QFGJPvxA6qqXa4NH28rNeSGTqdqu, role=STUDENT, email=kishoretony112@gmail.com]
+2025-05-21 15:05:29 - Course service fetched enrollment by Id
+2025-05-21 15:05:34 - Enrollment service added enrollment
+2025-05-21 15:06:25 - Application shutdown requested.
+2025-05-21 15:06:25 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-21 15:06:25 - Graceful shutdown complete
+2025-05-21 15:24:37 - Starting LoggingServiceApplication using Java 21.0.4 with PID 55112 (C:\Users\2393064\OneDrive - Cognizant\Desktop\project\logging-service\target\classes started by 2393064 in C:\Users\2393064\OneDrive - Cognizant\Desktop\project\logging-service)
+2025-05-21 15:24:37 - No active profile set, falling back to 1 default profile: "default"
+2025-05-21 15:24:38 - Tomcat initialized with port 9096 (http)
+2025-05-21 15:24:38 - Starting service [Tomcat]
+2025-05-21 15:24:38 - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-21 15:24:38 - Initializing Spring embedded WebApplicationContext
+2025-05-21 15:24:38 - Root WebApplicationContext: initialization completed in 752 ms
+2025-05-21 15:24:38 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-21 15:24:39 - Tomcat started on port 9096 (http) with context path '/'
+2025-05-21 15:24:39 - Started LoggingServiceApplication in 1.687 seconds (process running for 2.363)
+2025-05-21 15:26:13 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-21 15:26:13 - Initializing Servlet 'dispatcherServlet'
+2025-05-21 15:26:13 - Completed initialization in 0 ms
+2025-05-21 15:26:14 - User [userId=52, name=kishore, password=$2a$12$P5dPidmpYJdJXyaqgwG9eOcL2QFGJPvxA6qqXa4NH28rNeSGTqdqu, role=STUDENT, email=kishoretony112@gmail.com]
+2025-05-21 15:26:14 - Course service fetched enrollment by Id
+2025-05-21 15:26:18 - Enrollment service added enrollment
+2025-05-21 15:27:51 - User [userId=1, name=raj, password=raj, role=instructor, email=kit.25.21bec054@gmail.com]
+2025-05-21 15:27:55 - Course service added enrollment
+2025-05-21 15:29:09 - User [userId=1, name=raj, password=raj, role=instructor, email=kit.25.21bec054@gmail.com]
+2025-05-21 15:29:14 - Course service added enrollment
+2025-05-21 15:32:03 - Application shutdown requested.
+2025-05-21 15:32:03 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-21 15:32:03 - Graceful shutdown complete
