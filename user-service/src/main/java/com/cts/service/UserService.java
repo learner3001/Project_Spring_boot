@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import com.cts.client.AuthClient;
 import com.cts.client.LoggingClient;
 import com.cts.client.NotificationClient;
 import com.cts.entity.Email;
@@ -22,12 +23,18 @@ public class UserService {
 
 	@Autowired
 	NotificationClient notificationClient;
+	
+	@Autowired
+	AuthClient authClient;
 
 	private BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(12);
 
 	public String addNewUser(String username, String password, String email, String role) {
 		User user = new User();
-
+        if("not verified".equals(authClient.verifyUsercredentials(email)))
+        {
+        	return "user with invalid credentials";
+        }
 		user.setName(username);
 		user.setPassword(encoder.encode(password));
 		user.setEmail(email);

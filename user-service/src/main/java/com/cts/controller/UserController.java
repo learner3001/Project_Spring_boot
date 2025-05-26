@@ -3,11 +3,10 @@ package com.cts.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+
 import org.springframework.web.bind.annotation.*;
 
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpSession;
-
+import com.cts.client.AuthClient;
 import com.cts.entity.User;
 
 import com.cts.service.UserService;
@@ -18,20 +17,21 @@ public class UserController {
 
 	@Autowired
 	UserService userService;
+	
+	
 
 	@PostMapping("/register")
-	public ResponseEntity<String> newuser(@RequestBody User user, HttpServletRequest request) {
-
-		// Proceed with user registration
-
-		return ResponseEntity
-				.ok(userService.addNewUser(user.getName(), user.getPassword(), user.getEmail(), user.getRole()));
-
+	public ResponseEntity<String> newuser(@RequestBody User user) {
+	    
+         
+	    return ResponseEntity.ok(userService.addNewUser(user.getName(), user.getPassword(), user.getEmail(), user.getRole()));
 	}
+
+
 
 	@PostMapping("/login")
 	public ResponseEntity<String> loginUser(@RequestParam String email,
-			@RequestParam String password, HttpSession session) {
+			@RequestParam String password) {
 
 		if ("okStudent".equals(userService.checkLogin(email, password))) {
 
